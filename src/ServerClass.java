@@ -115,6 +115,11 @@ public class ServerClass {
             }
         }
         
+        /**
+         * Метод splitInputLine
+         * @param s
+         * @return
+         */
         public static String[] splitInputLine(String s) {
     		String[] info = s.split(" ");
     		return info;
